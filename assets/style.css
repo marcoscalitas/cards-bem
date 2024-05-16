@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --primary-color: #359ff6;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Layout - l */
+.l-flex {
+    display: flex;
+}
+
+.l-align-center {
+    align-items: center;
+}
+
+.l-justify-center {
+    justify-content: center;
+}
+
+.l-flex-column {
+    flex-direction: column;
+}
+
+/* Componentes - c */
+.c-card-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #f9f8fd;
+    gap: 30px;
+}
+
+.c-card {
+    width: 23rem;
+    padding: 20px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.050);
+    border-radius: 24px;
+    background-color: var(--white);
+    gap: 14px;
+}
+
+.c-card--dark-mode {
+    background-color: #181818;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+.c-card__header {
+    max-width: 100%;
+}
+
+.c-card__image {
+    --image-dimensions: 100%;
+    width: var(--image-dimensions);
+    height: var(--image-dimensions);
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.c-card__body {
+    gap: 4px;
+}
+
+.c-card__title {
+    color: var(black);
+    font-size: 24px;
+}
+
+.c-card__title--dark-mode {
+    color: var(--white);
+}
+
+.c-card__subhead {
+    position: relative;
+    color: #252525;
+    font-size: 16px;
+    font-weight: normal;
+    bottom: 7px;
+}
+
+.c-card__subhead--dark-mode {
+    color: var(--white);
+}
+
+.c-card__text {
+    display: -webkit-box;
+    color: #000000ab;
+    font-size: 15px;
+    line-height: 1.5em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+.c-card__text--dark-mode {
+    color: var(--white);
+    color: #cbcbcb;
+}
+
+.c-card__button {
+    display: inline-block;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 700;
+    align-self: flex-start;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 12px 24px;
+    margin-top: 16px;
+    background-color: var(--primary-color);
+    transition: background-color 0.3s ease;
+}
+
+.c-card__button--primary:hover {
+    background-color: #1a75c4;
+}
+
+.c-card__button--secundary {
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    background-color: var(--white);
+}
+
+.c-card__button--disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
