@@ -13,3 +13,8 @@ Este projeto demonstra a utilização da metodologia BEM (Block, Element, Modifi
 1. Clone este repositório.
    ```bash
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+
+## Executar projecto
+
+<a href="https://marcosfredericocalitas.github.io/cards-metodologia-bem/">Rodar projecto</a>
