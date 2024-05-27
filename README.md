@@ -17,4 +17,4 @@ Este projeto demonstra a utilização da metodologia BEM (Block, Element, Modifi
 
 ## Executar projecto
 
-<a href="https://marcosfredericocalitas.github.io/cards-metodologia-bem/">Rodar projecto</a>
+<a href="https://marcoscalitas.github.io/cards-metodologia-bem/">Rodar projecto</a>
