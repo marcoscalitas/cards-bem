@@ -15,4 +15,4 @@ This project demonstrates the use of the BEM (Block, Element, Modifier) methodol
    git clone https://github.com/your-username/repository-name.git
 
 ## Run Project
-<a href="https://marcoscalitas.github.io/cards-metodologia-bem/">Run project</a>
+<a href="https://marcoscalitas.github.io/cards-bem/">Run project</a>
