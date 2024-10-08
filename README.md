@@ -1,20 +1,18 @@
-# Metodologia BEM
+# BEM Methodology
 
-Este projeto demonstra a utilização da metodologia BEM (Block, Element, Modifier) combinada com a técnica de namespace para organizar e estruturar HTML e CSS de forma eficiente e escalável.
+This project demonstrates the use of the BEM (Block, Element, Modifier) methodology combined with the namespace technique to efficiently and scalably organize and structure HTML and CSS.
 
-## Estrutura do Projeto
+## Project Structure
 
 - `assets/`
-  - `style.css` - Arquivo CSS com estilos baseados na metodologia BEM.
-- `index.html` - Arquivo HTML principal que implementa a estrutura do projeto.
+  - `style.css` - CSS file with styles based on the BEM methodology.
+- `index.html` - Main HTML file that implements the project structure.
 
-## Como Usar
+## How to Use
 
-1. Clone este repositório.
+1. Clone this repository.
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/your-username/repository-name.git
 
-
-## Executar projecto
-
-<a href="https://marcoscalitas.github.io/cards-metodologia-bem/">Rodar projecto</a>
+## Run Project
+<a href="https://marcoscalitas.github.io/cards-metodologia-bem/">Run project</a>
