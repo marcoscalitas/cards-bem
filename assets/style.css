@@ -52,7 +52,7 @@
     gap: 14px;
 }
 
-.c-card--dark-mode {
+.c-card--dark {
     background-color: #181818;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
 }
@@ -78,7 +78,7 @@
     font-size: 24px;
 }
 
-.c-card__title--dark-mode {
+.c-card__title--dark {
     color: var(--white);
 }
 
@@ -90,7 +90,7 @@
     bottom: 7px;
 }
 
-.c-card__subhead--dark-mode {
+.c-card__subhead--dark {
     color: var(--white);
 }
 
@@ -105,7 +105,7 @@
     -webkit-line-clamp: 4;
 }
 
-.c-card__text--dark-mode {
+.c-card__text--dark {
     color: var(--white);
     color: #cbcbcb;
 }
